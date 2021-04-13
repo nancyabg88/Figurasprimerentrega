@@ -1,0 +1,74 @@
+
+* {
+    margin: 1%;
+    padding: 0%;
+
+}
+
+.menu {
+    background-color: black;
+    height: 80px;
+    text-align: center;
+    border:3px solid red;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 1%;
+}
+
+div {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: black;
+    align-items: center;
+    border: 3px solid rosybrown;
+    display: block;
+    position: relative;
+    box-shadow: 8px 8px 10px 0px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    display: block;
+    position: relative;
+    box-shadow: 8px 8px 10px 0px;
+}
+
+.squarecolors{
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid blue;
+    border-top: 50px solid yellow;
+    border-bottom: 50px solid red;
+    display: block;
+    position: relative;
+    box-shadow: 8px 8px 10px 0px;
+}
+
+.circlecolors {
+    width:0;
+    height:0;
+    border: 50px solid transparent;
+    border-top: 50px solid yellow;
+    border-left: 50px solid blue;
+    border-bottom: 50px solid red;
+    border-radius: 100%;
+}
